@@ -55,7 +55,7 @@ class LoginPage {
 
 const loginPage = new LoginPage();
 
-describe("Test Case 14: Place Order: Register while Checkout", () => {
+describe("Place Order: Login while Checkout", () => {
   beforeEach(() => {
     cy.visit("https://automationexercise.com/");
     cy.get('div[class="carousel-inner"]').should("be.visible");
